@@ -14,7 +14,7 @@ export const Team = () => {
     {
       name: "Wiradana",
       role: "",
-      image: "/user.png",
+      image: "/gw.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -23,7 +23,7 @@ export const Team = () => {
     {
       name: "Gus Wid",
       role: "",
-      image: "/user.png",
+      image: "/guswid.png",
       social: {
         twitter: "#",
         linkedin: "#",
