@@ -5,7 +5,7 @@ export const Team = () => {
     {
       name: "",
       role: "",
-      image: "public/user.png",
+      image: "user.png",
       social: {
         twitter: "",
         linkedin: "",
@@ -14,7 +14,7 @@ export const Team = () => {
     {
       name: "Wiradana",
       role: "",
-      image: "public/user.png",
+      image: "/user.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -23,7 +23,7 @@ export const Team = () => {
     {
       name: "Gus Wid",
       role: "",
-      image: "public/user.png",
+      image: "/user.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -32,7 +32,7 @@ export const Team = () => {
     {
       name: "",
       role: "",
-      image: "public/user.png",
+      image: "/user.png",
       social: {
         twitter: "",
         linkedin: "",

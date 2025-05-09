@@ -80,7 +80,7 @@ export const Footer = () => {
             <div className='flex items-center mb-4'>
               <span className='text-xl font-bold bg-gradient-to-r from-[#18cb96] to-[#0ea5e9] bg-clip-text text-transparent'>
                 <img
-                  src='/src/assets/logo.png' // Update this path to your logo image
+                  src='/logo.png' // Update this path to your logo image
                   alt='Company Logo'
                   className='h-8 w-auto' // Adjust height as needed
                 />

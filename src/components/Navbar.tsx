@@ -65,7 +65,7 @@ export const Navbar = () => {
             >
               {/* Replace with your logo image */}
               <img
-                src='public/logo.png' // Update this path to your logo image
+                src='/logo.png' // Update this path to your logo image
                 alt='Company Logo'
                 className='h-8 w-auto' // Adjust height as needed
               />
