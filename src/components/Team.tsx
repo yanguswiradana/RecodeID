@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 export const Team = () => {
   const teamMembers = [
     {
-      name: "",
-      role: "",
-      image: "user.png",
+      name: "Gandhi",
+      role: "2401010113",
+      image: "gandhi.png",
       social: {
         twitter: "",
         linkedin: "",
@@ -13,7 +13,7 @@ export const Team = () => {
     },
     {
       name: "Wiradana",
-      role: "",
+      role: "2401010112",
       image: "/gw.png",
       social: {
         twitter: "#",
@@ -21,21 +21,21 @@ export const Team = () => {
       },
     },
     {
-      name: "Gus Wid",
-      role: "",
-      image: "/guswid.png",
+      name: "Jhonatan",
+      role: "2401010143",
+      image: "/jhon.png",
       social: {
         twitter: "#",
         linkedin: "#",
       },
     },
     {
-      name: "",
-      role: "",
-      image: "/user.png",
+      name: "Budi",
+      role: "2401010145",
+      image: "/budi.png",
       social: {
-        twitter: "",
-        linkedin: "",
+        twitter: "#",
+        linkedin: "#",
       },
     },
   ];
@@ -51,7 +51,7 @@ export const Team = () => {
             transition={{ duration: 0.5 }}
             className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'
           >
-            Meet <span className='text-[#18cb96]'>Our Team</span>
+            Tim <span className='text-[#18cb96]'>Kami</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -60,8 +60,12 @@ export const Team = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className='text-lg text-gray-600'
           >
-            The talented people behind our success who work tirelessly to
-            deliver exceptional results.
+            Berisi mahasiswa mahasiswa yang berkomitmen untuk{" "}
+            <span className='font-medium'>LULUS</span> dan berdampak bagi sesama
+            <br />
+            <span className='text-[#18cb96] font-medium'>
+              Salam Menjadi Dan Memberi!!!
+            </span>
           </motion.p>
         </div>
 
@@ -129,7 +133,7 @@ export const Team = () => {
           className='mt-16 text-center'
         >
           <h3 className='text-xl font-semibold text-gray-900 mb-4'>
-            Want to join our team?
+            Mau gabung?
           </h3>
           <button
             onClick={() => {
@@ -138,7 +142,7 @@ export const Team = () => {
             }}
             className='px-6 py-3 bg-[#18cb96] text-white font-medium rounded-lg hover:bg-[#14b386] transition-all'
           >
-            View Open Positions
+            Bowleh pakek banget brokk
           </button>
         </motion.div>
       </div>

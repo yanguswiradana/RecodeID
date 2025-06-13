@@ -12,7 +12,7 @@ export const Promo = () => {
             transition={{ duration: 0.5 }}
             className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'
           >
-            Our <span className='text-[#18cb96]'>Story</span>
+            Our <span className='text-[#18cb96]'>Kisah</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -21,8 +21,10 @@ export const Promo = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className='text-lg text-gray-600'
           >
-            Watch our video to learn more about what makes us different and how
-            we can help you succeed.
+            Berawal dari mahasaiswa-mahasiswa semester 2 yang bunging dengan
+            arah hidup kemana tapi masih mau berdampak untuk sesama, dengan
+            platform pembajaran ini setidaknya kami bisa sedikit berguna dan
+            membantu perkebangan SDM Indonesia kedepannya.
           </motion.p>
         </div>
 
@@ -55,7 +57,7 @@ export const Promo = () => {
           className='mt-12 text-center'
         >
           <h3 className='text-xl font-semibold text-gray-900 mb-4'>
-            Want to learn more?
+            sudah siap mangasah otak kalian yang yang malas itu?
           </h3>
           <button
             onClick={() => {
@@ -66,7 +68,7 @@ export const Promo = () => {
             }}
             className='px-6 py-3 bg-gradient-to-r from-[#18cb96] to-[#0ea5e9] text-white font-medium rounded-lg hover:from-[#14b386] hover:to-[#0d92c7] transition-all shadow-lg'
           >
-            Discover Our Services
+            Lets go guys!
           </button>
         </motion.div>
       </div>

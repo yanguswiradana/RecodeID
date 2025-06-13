@@ -49,9 +49,9 @@ export const Hero = () => {
           className='max-w-4xl mx-auto'
         >
           <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight'>
-            <span className='block'>Transform Your</span>
+            <span className='block'>Recode your mind</span>
             <span className='block bg-gradient-to-r from-[#18cb96] to-[#0ea5e9] bg-clip-text text-transparent'>
-              Digital Presence
+              For the better future
             </span>
           </h1>
 
@@ -61,8 +61,8 @@ export const Hero = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className='text-lg sm:text-xl text-gray-200 mb-10 max-w-2xl mx-auto'
           >
-            We create stunning digital experiences that captivate your audience
-            and drive results.
+            Mari bersama mengubah cara kita berpikir dan berinteraksi dengan
+            dunia. Wujudkan masa depan yang lebih terhubung dan penuh harapan.
           </motion.p>
 
           <motion.div
@@ -80,7 +80,7 @@ export const Hero = () => {
               }}
               className='px-8 py-3 bg-gradient-to-r from-[#18cb96] to-[#0ea5e9] text-white font-medium rounded-lg hover:from-[#14b386] hover:to-[#0d92c7] transition-all shadow-lg'
             >
-              Watch Our Story
+              Sikatt!!
             </button>
             <button
               onClick={() => {
@@ -91,7 +91,7 @@ export const Hero = () => {
               }}
               className='px-8 py-3 bg-white/10 text-white font-medium rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm border border-white/20'
             >
-              Learn More
+              Info
             </button>
           </motion.div>
         </motion.div>
@@ -113,7 +113,7 @@ export const Hero = () => {
             className='flex flex-col items-center text-white hover:text-[#18cb96] transition-colors'
             aria-label='Scroll down'
           >
-            <span className='mb-2 text-sm'>Scroll Down</span>
+            <span className='mb-2 text-sm'>Sekroll cuy</span>
             <svg
               className='w-6 h-6 animate-bounce'
               fill='none'

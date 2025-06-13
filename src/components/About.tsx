@@ -19,8 +19,8 @@ export const About = () => {
           />
         </svg>
       ),
-      title: "Fast Performance",
-      description: "Our solutions are optimized for speed and efficiency.",
+      title: "Belajar Sat Set GPL",
+      description: "belajar gak ribet, cuma perlu niat ajah",
     },
     {
       icon: (
@@ -39,8 +39,8 @@ export const About = () => {
           />
         </svg>
       ),
-      title: "Secure Solutions",
-      description: "Security is our top priority in every project.",
+      title: "Untuk Semua Kalangan",
+      description: "aman bos kalo niat anak SD pun bisa",
     },
     {
       icon: (
@@ -59,8 +59,8 @@ export const About = () => {
           />
         </svg>
       ),
-      title: "Overdeable",
-      description: "Our solutions are designed to be easily scalable.",
+      title: "terjangkau?",
+      description: "jangankan terjangkau, gratis brok",
     },
   ];
 
@@ -75,7 +75,7 @@ export const About = () => {
             transition={{ duration: 0.5 }}
             className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'
           >
-            About <span className='text-[#18cb96]'>Our Company</span>
+            Apa itu <span className='text-[#18cb96]'>Recodeid</span> ?
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -84,8 +84,14 @@ export const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className='text-lg text-gray-600'
           >
-            We're a passionate team dedicated to creating innovative digital
-            solutions that help businesses thrive in the modern world.
+            <span className='text-[#18cb96] font-medium'>Recodeid</span> adalah
+            platform belajar logika pemrograman berbasis paython yang dirancang
+            untuk bisa di pahami oleh semua kalangan, mulai dari anak-anak
+            hingga orang dewasa. Dengan pendekatan yang sederhana dan
+            interaktif, kami bertujuan untuk membuat pembelajaran pemrograman
+            menjadi menyenangkan dan mudah diakses oleh siapa saja. Dan tentunya
+            berdampak pada masyarakat, terutama pada pertumbuhan SDM Indonesia
+            yang lebih baik di masa depan.
           </motion.p>
         </div>
 
@@ -119,11 +125,10 @@ export const About = () => {
         >
           <div className='max-w-2xl mx-auto text-center'>
             <h3 className='text-2xl sm:text-3xl font-bold mb-4'>
-              Ready to transform your business?
+              Siap untuk keluar dari zona nyaman?
             </h3>
             <p className='text-white/90 mb-6'>
-              Let's create something amazing together. Our team is ready to
-              bring your vision to life.
+              ayo gaskan!!, mulai dulu dengan yang ringan-ringan
             </p>
             <button
               onClick={() => {
@@ -134,7 +139,7 @@ export const About = () => {
               }}
               className='px-6 py-3 bg-white text-gray-900 font-medium rounded-lg hover:bg-gray-100 transition-all'
             >
-              Meet Our Team
+              sokin brok, gasss
             </button>
           </div>
         </motion.div>

@@ -87,8 +87,8 @@ export const Footer = () => {
               </span>
             </div>
             <p className='text-gray-400 text-sm'>
-              Creating innovative digital solutions to help businesses thrive in
-              the modern world.
+              Mari bersama mengubah cara kita berpikir dan berinteraksi dengan
+              dunia. Wujudkan masa depan yang lebih terhubung dan penuh harapan.
             </p>
             <div className='flex space-x-4 mt-6'>
               {socialLinks.map((social, index) => (
