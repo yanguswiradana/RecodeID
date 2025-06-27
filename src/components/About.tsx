@@ -125,10 +125,10 @@ export const About = () => {
         >
           <div className='max-w-2xl mx-auto text-center'>
             <h3 className='text-2xl sm:text-3xl font-bold mb-4'>
-              Siap untuk keluar dari zona nyaman?
+              Siap untuk belajar?
             </h3>
             <p className='text-white/90 mb-6'>
-              ayo gaskan!!, mulai dulu dengan yang ringan-ringan
+              Gaskan, mulai dulu dengan yang ringan-ringan
             </p>
             <button
               onClick={() => {
@@ -139,7 +139,7 @@ export const About = () => {
               }}
               className='px-6 py-3 bg-white text-gray-900 font-medium rounded-lg hover:bg-gray-100 transition-all'
             >
-              sokin brok, gasss
+              Module pembajaran
             </button>
           </div>
         </motion.div>

@@ -80,7 +80,7 @@ export const Hero = () => {
               }}
               className='px-8 py-3 bg-gradient-to-r from-[#18cb96] to-[#0ea5e9] text-white font-medium rounded-lg hover:from-[#14b386] hover:to-[#0d92c7] transition-all shadow-lg'
             >
-              Sikatt!!
+              Gas
             </button>
             <button
               onClick={() => {
@@ -113,7 +113,7 @@ export const Hero = () => {
             className='flex flex-col items-center text-white hover:text-[#18cb96] transition-colors'
             aria-label='Scroll down'
           >
-            <span className='mb-2 text-sm'>Sekroll cuy</span>
+            <span className='mb-2 text-sm'>Scroll cuy</span>
             <svg
               className='w-6 h-6 animate-bounce'
               fill='none'

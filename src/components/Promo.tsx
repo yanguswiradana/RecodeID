@@ -57,7 +57,7 @@ export const Promo = () => {
           className='mt-12 text-center'
         >
           <h3 className='text-xl font-semibold text-gray-900 mb-4'>
-            sudah siap mangasah otak kalian yang yang malas itu?
+            sudah siap mangasah logika kamu?
           </h3>
           <button
             onClick={() => {

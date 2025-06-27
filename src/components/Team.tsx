@@ -142,7 +142,7 @@ export const Team = () => {
             }}
             className='px-6 py-3 bg-[#18cb96] text-white font-medium rounded-lg hover:bg-[#14b386] transition-all'
           >
-            Bowleh pakek banget brokk
+            Hubungi Kami
           </button>
         </motion.div>
       </div>
