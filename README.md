@@ -1,54 +1,73 @@
-# React + TypeScript + Vite
+# RecodeID
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Course online berbasis website
 
-Currently, two official plugins are available:
+Aplikasi ini dibuat untuk memenuhi tugas Mata Kuliah E-Bussines.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### Daftar Isi
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Tentang Proyek
+- Fitur Utama
+- Tangkapan Layar
+- Teknologi yang Digunakan
+- Kredit
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tentang Proyek
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+RecodeID adalah jasa penyedia course/kelas online berbasis website yang berfokus pada pemblajaran logika menggunakan pyhton
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## Fitur Utama
+
+Berikut adalah fungsi dan fitur-fitur utama yang ada di dalam aplikasi ini:
+
+- **Modul Pembelajaran**
+- **Forum Diskusi**
+- **Video Pembelajaran**
+
+---
+
+## Tangkapan Layar (Screenshot)
+
+Berikut adalah beberapa tampilan dari aplikasi yang telah dibuat:
+
+|               Halaman Home                |
+| :---------------------------------------: |
+| ![Halaman Home](public/home-recodeid.png) |
+
+---
+
+## Teknologi yang Digunakan
+
+Proyek ini dibangun menggunakan beberapa teknologi, antara lain:
+
+- **Frontend:** React, typescripts, Tailwind CSS, Framer Motion
+- **Backend:** -
+- **Database:** -
+- **Framework:** React Vite
+
+---
+
+## Kredit
+
+Proyek ini disusun dan dikembangkan oleh:
+
+| Nama Mahasiswa                 | NIM          | Username Github    |
+| ------------------------------ | ------------ | ------------------ |
+| **I Wayan Agus Wiradana**      | `2401010112` | **yanguswiradana** |
+| **I Gede Gandhi Waisnawa**     | `2401010113` | **gandhibuahaha**  |
+| **I Jhonatan Kevin Marandita** | `2401010143` | **dhsau**          |
+| **I Kadek Budiarsa**           | `2401010145` | **Budi05986**      |
+
+<br>
+
+**Dosen Pengampu Mata Kuliah:**
+
+**Ir. I Nyoman Tri Anindia Putra, S.Kom., M.Cs**
+
+---

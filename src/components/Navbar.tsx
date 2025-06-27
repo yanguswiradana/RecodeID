@@ -40,9 +40,11 @@ export const Navbar = () => {
 
   const navItems = [
     { id: "home", label: "Home" },
-    { id: "promo", label: "Promo" },
-    { id: "about", label: "About" },
-    { id: "team", label: "Team" },
+    { id: "promo", label: "Kisah" },
+    { id: "modul", label: "Modul" },
+    { id: "about", label: "Tentang Kami" },
+    { id: "team", label: "Tim" },
+    { id: "videos", label: "Video" },
   ];
 
   return (

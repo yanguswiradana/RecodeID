@@ -4,6 +4,8 @@ import { About } from "./components/About";
 import { Team } from "./components/Team";
 import { Promo } from "./components/Promo";
 import { Footer } from "./components/Footer";
+import VideoSection from "./components/VideoSection";
+import BookSection from "./components/BookSection";
 
 function App() {
   return (
@@ -14,9 +16,13 @@ function App() {
 
       <Promo />
 
+      <BookSection />
+
       <About />
 
       <Team />
+
+      <VideoSection />
 
       <Footer />
     </div>

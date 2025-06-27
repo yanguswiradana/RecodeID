@@ -40,7 +40,7 @@ export const Promo = () => {
             {/* 16:9 Aspect Ratio */}
             <iframe
               className='absolute top-0 left-0 w-full h-full'
-              src='https://www.youtube.com/embed/9D77c-9359Y?si=6O05jNUfaltR3XFx'
+              src='https://www.youtube.com/embed/g9FArxZG7oE?si=fZazX4axtHAf-NeO'
               title='YouTube video player'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               referrerPolicy='strict-origin-when-cross-origin'
@@ -61,7 +61,7 @@ export const Promo = () => {
           </h3>
           <button
             onClick={() => {
-              const aboutSection = document.getElementById("about");
+              const aboutSection = document.getElementById("videos");
               if (aboutSection) {
                 aboutSection.scrollIntoView({ behavior: "smooth" });
               }
