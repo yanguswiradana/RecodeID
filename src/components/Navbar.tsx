@@ -10,7 +10,15 @@ export const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
 
-      const sections = ["home", "promo", "about", "team"];
+      const sections = [
+        "home",
+        "promo",
+        "about",
+        "team",
+        "modul",
+        "Kontak",
+        "videos",
+      ];
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
