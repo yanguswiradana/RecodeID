@@ -44,6 +44,7 @@ export const Navbar = () => {
     { id: "modul", label: "Modul" },
     { id: "about", label: "Tentang Kami" },
     { id: "team", label: "Tim" },
+    { id: "Kontak", label: "Kontak" },
     { id: "videos", label: "Video" },
   ];
 

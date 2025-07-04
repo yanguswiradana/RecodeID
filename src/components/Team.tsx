@@ -132,23 +132,6 @@ export const Team = () => {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className='mt-16 text-center'
-        >
-          <button
-            onClick={() => {
-              window.location.href = "mailto:recodeid.info@gmail.com";
-            }}
-            className='px-6 py-3 bg-[#18cb96] text-white font-medium rounded-lg hover:bg-[#14b386] transition-all'
-          >
-            Hubungi Kami
-          </button>
-        </motion.div>
       </div>
     </section>
   );
