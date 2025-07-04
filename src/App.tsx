@@ -6,6 +6,7 @@ import { Promo } from "./components/Promo";
 import { Footer } from "./components/Footer";
 import VideoSection from "./components/VideoSection";
 import BookSection from "./components/BookSection";
+import ContactSection from "./components/Contact";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <About />
 
       <Team />
+
+      <ContactSection />
 
       <VideoSection />
 
