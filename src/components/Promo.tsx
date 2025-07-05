@@ -24,7 +24,7 @@ export const Promo = () => {
             Berawal dari mahasaiswa-mahasiswa semester 2 yang bunging dengan
             arah hidup kemana tapi masih mau berdampak untuk sesama, dengan
             platform pembajaran ini setidaknya kami bisa sedikit berguna dan
-            membantu perkebangan SDM Indonesia kedepannya.
+            membantu perkembangan SDM Indonesia kedepannya.
           </motion.p>
         </div>
 
