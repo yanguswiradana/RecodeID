@@ -40,8 +40,8 @@ const modules: Module[] = [
         name: "Bab 2: Variabel dan angka",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 2",
+            url: "https://www.youtube.com/embed/lsyuoCsS1iQ?si=Aun4A0GJQ1PdygDh",
           },
         ],
       },
@@ -50,8 +50,8 @@ const modules: Module[] = [
         name: "Bab 3: if,elif dan else",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 3",
+            url: "https://www.youtube.com/embed/DqzQA_c78sg?si=bCF97HlCDQo2pmUO",
           },
         ],
       },
@@ -60,8 +60,8 @@ const modules: Module[] = [
         name: "Bab 4: Looping",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 4",
+            url: "https://www.youtube.com/embed/8uZDt0cVYKs?si=vrMakJ_HeGxI3yum",
           },
         ],
       },
@@ -70,8 +70,8 @@ const modules: Module[] = [
         name: "Bab 5: Fungsi",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 5",
+            url: "https://www.youtube.com/embed/DuUvMgYQSCQ?si=TMnQ3mmtXslA-PtN",
           },
         ],
       },
@@ -80,8 +80,8 @@ const modules: Module[] = [
         name: "Bab 6: Array",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 6",
+            url: "https://www.youtube.com/embed/vl7YQ5VXNXM?si=n1Vy3TfGy2uQh69t",
           },
         ],
       },
@@ -90,8 +90,8 @@ const modules: Module[] = [
         name: "Bab 7: Mini Proyek",
         videos: [
           {
-            title: "Coming Soon",
-            url: "",
+            title: "Bab 7",
+            url: "https://www.youtube.com/embed/tBaoARmGvlM?si=a6e6yUmiPVmOPKOj",
           },
         ],
       },
