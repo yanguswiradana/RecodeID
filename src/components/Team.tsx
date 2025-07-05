@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 export const Team = () => {
   const teamMembers = [
     {
-      name: "Gandhi",
-      role: "2401010113",
+      name: "I Gede Gandhi Waisnawa",
+      role: "Pemateri",
       image: "gandhi.png",
       social: {
         instagram: "https://www.instagram.com/gandhiwaisnawa_/",
@@ -12,8 +12,8 @@ export const Team = () => {
       },
     },
     {
-      name: "Wiradana",
-      role: "2401010112",
+      name: "I Wayan Agus Wiradana",
+      role: "Perancang Website",
       image: "/gw.png",
       social: {
         instagram: "https://www.instagram.com/_wynaw_/",
@@ -21,21 +21,30 @@ export const Team = () => {
       },
     },
     {
-      name: "Jhonatan",
-      role: "2401010143",
-      image: "/jhon.png",
+      name: "Ir. I Nyoman Tri Anindia Putra, S.Kom., M.Cs.",
+      role: "Quality Control",
+      image: "/2.png",
       social: {
-        instagram: "https://www.instagram.com/jhonatan.303/",
-        github: "https://github.com/dhsau",
+        instagram: "https://www.instagram.com/triansvr/",
+        github: "#",
       },
     },
     {
-      name: "Budi",
-      role: "2401010145",
+      name: "I Kadek Budiarsa",
+      role: "Perancangan materi",
       image: "/budi.png",
       social: {
         instagram: "https://www.instagram.com/_dek_udi_/",
         github: "https://github.com/Budi05986",
+      },
+    },
+    {
+      name: "I Wayan Jhonatan Kevin Marandita",
+      role: "Editor",
+      image: "/jhon.png",
+      social: {
+        instagram: "https://www.instagram.com/jhonatan.303/",
+        github: "https://github.com/dhsau",
       },
     },
   ];
@@ -69,7 +78,7 @@ export const Team = () => {
           </motion.p>
         </div>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-5 gap-8'>
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
