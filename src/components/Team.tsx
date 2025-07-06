@@ -22,8 +22,8 @@ export const Team = () => {
     },
     {
       name: "Ir. I Nyoman Tri Anindia Putra, S.Kom., M.Cs.",
-      role: "Quality Control",
-      image: "/2.png",
+      role: "Dosen Pembimbing",
+      image: "/paktrian.png",
       social: {
         instagram: "https://www.instagram.com/triansvr/",
         github: "#",

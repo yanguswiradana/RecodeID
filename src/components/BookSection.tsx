@@ -18,7 +18,7 @@ const books: Book[] = [
     link: "#",
   },
   {
-    title: "Modul 1: Modul 1: Langkah Awal Belajar Logika Dengan Python",
+    title: "Modul 1: Langkah Awal Belajar Logika Dengan Python",
     description:
       "Modul ini membahas dasar-dasar logika pemrograman untuk pemula, dan tentu ada tantangannya 😁",
     image: "/module-1cover.png",
