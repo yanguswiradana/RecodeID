@@ -4,7 +4,7 @@ export const Team = () => {
   const teamMembers = [
     {
       name: "I Gede Gandhi Waisnawa",
-      role: "Pemateri",
+      role: "Perancang video dan pemateri video",
       image: "gandhi.png",
       social: {
         instagram: "https://www.instagram.com/gandhiwaisnawa_/",
@@ -13,7 +13,7 @@ export const Team = () => {
     },
     {
       name: "I Wayan Agus Wiradana",
-      role: "Perancang Website",
+      role: "Developer dan laporan",
       image: "/gw.png",
       social: {
         instagram: "https://www.instagram.com/_wynaw_/",
@@ -31,7 +31,7 @@ export const Team = () => {
     },
     {
       name: "I Kadek Budiarsa",
-      role: "Perancangan materi",
+      role: "Perancangan materi dan manual book",
       image: "/budi.png",
       social: {
         instagram: "https://www.instagram.com/_dek_udi_/",
@@ -40,7 +40,7 @@ export const Team = () => {
     },
     {
       name: "I Wayan Jhonatan Kevin Marandita",
-      role: "Editor",
+      role: "Perancang video dan editor video",
       image: "/jhon.png",
       social: {
         instagram: "https://www.instagram.com/jhonatan.303/",
